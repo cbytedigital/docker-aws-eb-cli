@@ -1,7 +1,7 @@
 # Docker AWS Elastic Beanstalk CLI
 Automatically updated Docker image for running tasks using the latest version of AWS CLI and AWS Elastic Beanstalk CLI.
 
-No longer the `An update to the EB CLI is available. Run "pip install --upgrade awsebcli" to get the latest version.` alert.
+No longer the `An update to the EB CLI is available. Run "pip install --upgrade awsebcli" to get the latest version.` alert!
 
 For use in e.g.:
 - CI (Gitlab, Travis, Jenkins, CircleCI)
