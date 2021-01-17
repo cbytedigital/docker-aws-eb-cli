@@ -8,12 +8,12 @@ RUN apk --no-cache --update add \
         jq \
         git \
         curl \
-        python \
-        py-pip \
+        python3 \
+        py3-pip \
         openssh-client
 
 # Install latest version of AWS CLI and AWS EB CLI
-RUN pip install --upgrade pip \
+RUN pip3 install --upgrade pip \
         awsebcli \
         awscli
 
