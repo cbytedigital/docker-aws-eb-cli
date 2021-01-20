@@ -17,6 +17,8 @@ before_script:
 
 build_image:
   stage: build
+  tags:
+    - chabter
   script:
     - docker build -t $CI_REGISTRY_IMAGE .
 
