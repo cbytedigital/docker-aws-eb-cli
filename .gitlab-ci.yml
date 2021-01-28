@@ -24,7 +24,7 @@ docker:build:
 
 docker:test:
   stage: test
-  image: $CI_REGISTRY_IMAGE
+  image: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
   variables:
     GIT_STRATEGY: none
   script:
