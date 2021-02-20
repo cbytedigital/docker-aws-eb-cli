@@ -19,7 +19,7 @@ RUN apk --no-cache --update add \
         py3-pip
 
 # Install latest version of AWS CLI and AWS EB CLI
-RUN pip3 install --upgrade pip \
+RUN pip3 install --upgrade pip --ignore-installed six \
         awsebcli \
         awscli
 
