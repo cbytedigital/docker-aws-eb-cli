@@ -12,6 +12,8 @@ RUN apk --no-cache --update add \
         curl \
         gcc \
         make \
+        rust \
+        cargo \
         libressl-dev \
         musl-dev \
         libffi-dev \
