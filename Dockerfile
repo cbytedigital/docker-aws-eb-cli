@@ -14,7 +14,7 @@ RUN apk --no-cache --update add \
         make \
         rust \
         cargo \
-        libressl-dev \
+        openssl-dev \
         musl-dev \
         libffi-dev \
         python3-dev \
