@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER Chabter <team@chabter.com>
+LABEL maintainer="devops@cbyte.nl"
 
 # Install dependencies
 RUN apk --no-cache --update add \

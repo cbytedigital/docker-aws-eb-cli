@@ -7,6 +7,8 @@ For use in e.g.:
 - CI (Gitlab, Travis, Jenkins, CircleCI)
 - Local development
 
+A continuation of [chabter/aws-eb-cli](https://hub.docker.com/r/cbytedigital/aws-eb-cli/).
+
 [![DockerHub Badge](http://dockeri.co/image/cbytedigital/aws-eb-cli)](https://hub.docker.com/r/cbytedigital/aws-eb-cli/)
 
 ## Build
