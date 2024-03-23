@@ -1,0 +1,14 @@
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Build and Push Docker Image
+          services:
+            - docker
+          script:
+            - export DOCKER_BUILDKIT=1
+            - docker build -t cbytedigital/aws-eb-cli:latest .
+            - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+            - docker push cbytedigital/aws-eb-cli:latest
+          caches:
+            - docker
