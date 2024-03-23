@@ -21,7 +21,7 @@ RUN apk --no-cache --update add \
         py3-pip
 
 # Install latest version of AWS CLI and AWS EB CLI
-RUN pip3 install awsebcli awscli
+RUN pip3 install --break-system-packages awsebcli awscli 
 
 # Clean up caches to reduce size
 RUN rm -rf /var/cache/apk/*
