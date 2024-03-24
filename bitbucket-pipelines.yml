@@ -6,9 +6,9 @@ definitions:
         clone:
           enabled: false
         script:
-          - git clone --bare git@bitbucket.org:cbytedigital/docker-aws-cli-jq.git
-          - cd docker-aws-cli-jq.git
-          - git push --mirror git@github.com:cbytedigital/docker-aws-cli-jq.git
+          - git clone --bare git@bitbucket.org:cbytedigital/docker-aws-elastic-beanstalk-cli.git
+          - cd docker-aws-elastic-beanstalk-cli.git
+          - git push --mirror git@github.com:cbytedigital/docker-aws-eb-cli.git
 
 pipelines:
   branches:
